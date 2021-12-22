@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>type test</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<nav id="nav">
+	<form id="submit">
+		<label>difficaulty</label>
+		<select id="level">
+			<option value="easy">Easy</option>
+			<option value="medium">Medium</option>
+			<option value="hard">Hard</option>
+		</select>
+	</form>
+</nav>
+<main>
+	<h6 class="timer">Your Time: <span class="els">10s</span></h6>
+	<h6 class="score">score:<span class="point"></span></h6>
+	<h5 class="word"></h5>
+	<input type="text" name="text" value="" id="input" placeholder="بنویس">
+	<h4 class="win"></h4>
+</main>
+
+<!--start-->
+<div class="modal-start">
+	<div class="card-start">
+		<h4>برای شروع بازیروی دکمه زیر کلیک کن</h4>
+		<button class="btn-start">شروع</button>
+	</div>
+</div>
+
+
+
+<!--gameOver-->
+<div class="modal-end">
+	<div class="card-start">
+		<h4>باختی</h4>
+		<h4>score :<span class="score-end"></span></h4>
+		<button class="btn-end">دوباره</button>
+	</div>
+</div>
+<div class="btn-setting">setting</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
